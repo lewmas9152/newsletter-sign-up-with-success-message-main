@@ -46,6 +46,7 @@ a {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .container-content {
@@ -107,7 +108,7 @@ input {
 
   display: flex;
   flex-direction: column;
-  margin: 5rem;
+  /* margin: 5rem; */
   background-color: var(--white);
   padding: 3rem;
   padding-top: 10rem;
@@ -128,6 +129,10 @@ input {
     margin-top: 20rem;
  }
 @media screen and (min-width: 570px) {
+
+  .container {
+    margin: 6rem;
+  }
 .success {
   border-radius: 2.5rem;
   max-width: 50ch;
