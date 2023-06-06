@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <main class="container" id="main-el">
+      <picture class="picture">
+        <img
+          src="./assets/images/illustration-sign-up-mobile.svg"
+          alt="illustration-sign-up-mobile"
+          class="image1"
+        />
+        <img
+          src="./assets/images/illustration-sign-up-desktop.svg"
+          alt="illustration-sign-up-desktop"
+          class="image2"
+        />
+      </picture>
+
+      <div class="container-content">
+        <h1>Stay updated!</h1>
+
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <ul class="list-updates">
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+        <div class="email" id="email-el">
+          <p class="address">Email address</p>
+        <p id="error-el">Valid email required</p>
+        </div>
+        <input type="text" placeholder="  email@company.com"  id="input-el"/>
+        <br />
+        <button class="button" id="button-el" onclick="btnClick">Subscribe to monthly newsletter</button>
+      </div>
+    </main>
+
+  <div class="success" id="success-el">
+    <img src="./assets/images/icon-list.svg" alt="success tick">
+    <h2> Thanks for subscribing!</h2> 
+    <p>A confirmation email has been sent to
+      <a href="#">ash@loremcompany.com.</a>Please open it and click the button inside to confirm
+      your subscription. </p>
+    <button class="button" id="dismiss-btn">Dismiss message</button>
+  </div>
+  <script src="index.js"></script>
+  </body>
+</html>
