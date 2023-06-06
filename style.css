@@ -38,7 +38,7 @@ h1 {
 }
 
 a {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
@@ -105,10 +105,8 @@ input {
   background-color: var(--tomato);
 }
 .success {
-
   display: flex;
   flex-direction: column;
-  /* margin: 5rem; */
   background-color: var(--white);
   padding: 3rem;
   padding-top: 10rem;
@@ -116,50 +114,44 @@ input {
 }
 
 .success h2 {
-  max-width: 10ch; 
+  max-width: 10ch;
   margin: 1.5rem 0;
- 
- }
- 
- .success img {
-   width: 3rem;
- }
- 
- .success  button {
-    margin-top: 20rem;
- }
-@media screen and (min-width: 570px) {
-
-  .container {
-    margin: 6rem;
-  }
-.success {
-  border-radius: 2.5rem;
-  max-width: 50ch;
-  padding-top: unset;
-  
 }
 
 .success img {
-  margin-top: 3rem;
-}
- 
-.success  button {
-  margin-top:2rem;
+  width: 3rem;
 }
 
+.success button {
+  margin-top: 20rem;
+}
+@media screen and (min-width: 570px) {
+  .container {
+    margin: 6rem;
+  }
+  .success {
+    border-radius: 2.5rem;
+    max-width: 50ch;
+    padding-top: unset;
+  }
 
+  .success img {
+    margin-top: 3rem;
+  }
 
-    .image2{
-      display: unset;
-      margin: 1rem;
-      margin-left: 0;
-     
-    }
+  .success button {
+    margin-top: 2rem;
+  }
 
-    .image1 {
-      display: none;
-    }
+  .image2 {
+    display: unset;
+    margin: 1rem;
+    margin-left: 0;
+  }
+
+  .image1 {
+    display: none;
+  }
 
   .container {
     flex-direction: row-reverse;
@@ -171,7 +163,7 @@ input {
     margin-bottom: 2rem;
   }
 
-  .container-content{
+  .container-content {
     margin: 4rem;
     max-width: 40ch;
   }
