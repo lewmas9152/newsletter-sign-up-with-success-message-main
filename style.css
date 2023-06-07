@@ -21,6 +21,7 @@ body {
   font-family: "Roboto", sans-serif;
   display: grid;
   place-items: center;
+  justify-content: center;
 }
 
 .image {
